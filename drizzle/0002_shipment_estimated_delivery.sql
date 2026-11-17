@@ -1,0 +1,2 @@
+ALTER TABLE "shipment"
+ADD COLUMN IF NOT EXISTS "estimatedDelivery" TIMESTAMPTZ;
