@@ -769,7 +769,7 @@ function TimelineManager() {
           <form onSubmit={(event) => void submitCheckpoint(event)} className="grid gap-3 rounded-2xl border border-border p-4 sm:grid-cols-2">
             <h4 className="font-semibold sm:col-span-2">Add checkpoint</h4>
             <label className="text-sm">Checkpoint title<input name="eventType" required maxLength={100} placeholder="Picked up" className="form-input mt-2" /></label>
-            <label className="text-sm">Location<input name="location" maxLength={160} placeholder="Lagos sorting hub" className="form-input mt-2" /></label>
+            <label className="text-sm">Location<input name="location" maxLength={160} placeholder="USA sorting hub" className="form-input mt-2" /></label>
             <label className="text-sm">Date and time<input name="eventAt" type="datetime-local" required className="form-input mt-2" /></label>
             <label className="text-sm">
               Timeline position

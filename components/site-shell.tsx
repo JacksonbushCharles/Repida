@@ -87,8 +87,8 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-white/50">Popular routes</p>
             <ul className="mt-4 space-y-3 text-sm text-white/75">
-              <li>Lagos → London</li>
-              <li>Abuja → Dubai</li>
+              <li>USA → London</li>
+              <li>USA → Dubai</li>
               <li>Accra → Paris</li>
               <li>Johannesburg → Frankfurt</li>
             </ul>

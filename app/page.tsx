@@ -20,7 +20,7 @@ export default function HomePage() {
               <div className="grid gap-3 sm:grid-cols-2">
                 <div>
                   <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-[#777777]">Pickup</label>
-                  <input className="form-input" defaultValue="Lagos, Nigeria" />
+                  <input className="form-input" defaultValue="USA, Texas" />
                 </div>
                 <div>
                   <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-[#777777]">Destination</label>
@@ -67,7 +67,7 @@ export default function HomePage() {
                   <div className="flex items-center justify-between rounded-2xl border border-[#E8E4DE] bg-[#F4F0EA] p-3">
                     <div>
                       <p className="text-xs uppercase tracking-[0.18em] text-[#777777]">Origin</p>
-                      <p className="mt-1 font-semibold">Lagos</p>
+                      <p className="mt-1 font-semibold">USA</p>
                     </div>
                     <Truck className="h-5 w-5 text-[#F36B21]" />
                     <div className="text-right">

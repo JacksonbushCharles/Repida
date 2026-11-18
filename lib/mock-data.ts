@@ -109,9 +109,9 @@ export const customerShipments: Shipment[] = [
   {
     trackingId: "RPD-4821A",
     status: "In transit",
-    origin: "Lagos, NG",
+    origin: "USA, NG",
     destination: "London, UK",
-    route: "Lagos → London",
+    route: "USA → London",
     eta: "Today, 15:30",
     service: "Express air",
     payment: "Paid",
@@ -119,9 +119,9 @@ export const customerShipments: Shipment[] = [
   {
     trackingId: "RPD-2019L",
     status: "Pending",
-    origin: "Abuja, NG",
+    origin: "Washinton DC, USA",
     destination: "Dubai, AE",
-    route: "Abuja → Dubai",
+    route: "USA → Dubai",
     eta: "Thu, 12 Jun",
     service: "Priority parcel",
     payment: "Outstanding",
@@ -171,8 +171,8 @@ export const adminStats = [
 ];
 
 export const routeHighlights = [
-  { name: "Lagos → London", value: 31 },
-  { name: "Abuja → Dubai", value: 24 },
+  { name: "USA → London", value: 31 },
+  { name: "USA → Dubai", value: 24 },
   { name: "Accra → Paris", value: 19 },
   { name: "Johannesburg → Frankfurt", value: 14 },
   { name: "Nairobi → Geneva", value: 11 },

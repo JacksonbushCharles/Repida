@@ -74,7 +74,7 @@ Useful commands from [package.json](./package.json):
 - The contact endpoint needs `RESEND_API_KEY`, `RESEND_FROM`, and
   `CONTACT_EMAIL` to deliver email.
 - `RESTAURANT_TIME_ZONE` should be the restaurant's IANA time zone, such as
-  `Africa/Lagos`; `UTC` is only a placeholder.
+  `Africa/USA`; `UTC` is only a placeholder.
 
 ## 3. The request flow: browser to database
 

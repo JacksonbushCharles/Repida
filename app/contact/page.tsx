@@ -12,7 +12,7 @@ export default function ContactPage() {
               <MapPin className="mt-1 h-5 w-5 text-[#F36B21]" />
               <div>
                 <p className="font-semibold">Head office</p>
-                <p className="text-[#777777]">12 Marina Road, Lagos Island, Nigeria</p>
+                <p className="text-[#777777]">Texas</p>
               </div>
             </div>
             <div className="flex gap-4">
